@@ -1,3 +1,8 @@
 def reverse_each_word(string)
-  word = string.split(' ')
-  for w
+  new_words = ""
+  words = string.split(' ')
+  for word in words
+    new_words  += word.reverse
+  end
+  return new_words
+end
